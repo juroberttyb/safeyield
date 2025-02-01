@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head><link rel="modulepreload" href="/safeyield-e5985c3a0954836e.js" crossorigin="anonymous" integrity="sha384-nkKiXnO5yTGWmAzTfPkC+0xIxq8Sg4O7W6qJXECETROAFRSAx6US3k4IcrjMenCL"><link rel="preload" href="/safeyield-e5985c3a0954836e_bg.wasm" crossorigin="anonymous" integrity="sha384-znXsqnoJRjpLLAp3pDKh0qca9f9BmNAC8wa+qq+Vwzrj6R/7AF0pF54hXGb3mg3o" as="fetch" type="application/wasm"></head>
+  <head>
+    <link rel="manifest" href="setting/manifest.json"/>
+    
+    
+  <link rel="modulepreload" href="/safeyield-eddf4c6a49fd60b2.js" crossorigin="anonymous" integrity="sha384-nkKiXnO5yTGWmAzTfPkC+0xIxq8Sg4O7W6qJXECETROAFRSAx6US3k4IcrjMenCL"><link rel="preload" href="/safeyield-eddf4c6a49fd60b2_bg.wasm" crossorigin="anonymous" integrity="sha384-ZPgM3hpGuKsj7PoMmSSRzijfl0wqKp18eQjqxJ3OL37Px/epIpN6AZtii2SaAdaz" as="fetch" type="application/wasm"></head>
   <body>
 <script type="module">
-import init, * as bindings from '/safeyield-e5985c3a0954836e.js';
-const wasm = await init({ module_or_path: '/safeyield-e5985c3a0954836e_bg.wasm' });
+import init, * as bindings from '/safeyield-eddf4c6a49fd60b2.js';
+const wasm = await init({ module_or_path: '/safeyield-eddf4c6a49fd60b2_bg.wasm' });
 
 
 window.wasmBindings = bindings;
