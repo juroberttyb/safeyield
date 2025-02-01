@@ -19,6 +19,7 @@ concurrency:
 jobs:
   Github-Pages-Release:
 
+    permissions: write-all
     timeout-minutes: 10
 
     environment:
@@ -70,7 +71,6 @@ jobs:
       # Deploy with Github Static Pages
 
       - name: Setup Pages
-        permissions: write-all
         uses: actions/configure-pages@v4
         with:
           enablement: true
