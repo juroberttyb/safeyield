@@ -11,7 +11,7 @@ fn App(increment: i32) -> impl IntoView {
             id="logo"
             // class="rss opacity"
             loading="lazy"
-            src="/images/eth.png"
+            src="./images/eth.png"
             alt=""
             height="300"
             width="300"
