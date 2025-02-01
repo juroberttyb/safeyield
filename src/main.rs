@@ -17,8 +17,8 @@ fn App(increment: i32) -> impl IntoView {
             width="300"
         />
 
-        <h1>"Welcome to Leptos"</h1>
-        <h2><i>"On Github Pages"</i></h2>
+        <h1>"0xa0fE0fFA1234cf1f9Ee198De2d6A3BA7A23Cd874"</h1>
+        <h2><i>"ETH, USDT, USDC"</i></h2>
 
         <button
             on:click= move |_| {
