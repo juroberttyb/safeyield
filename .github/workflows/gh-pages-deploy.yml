@@ -70,6 +70,7 @@ jobs:
       # Deploy with Github Static Pages
 
       - name: Setup Pages
+        permissions: write-all
         uses: actions/configure-pages@v4
         with:
           enablement: true
