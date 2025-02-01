@@ -19,7 +19,6 @@ concurrency:
 jobs:
   Github-Pages-Release:
 
-    permissions: write-all
     timeout-minutes: 10
 
     environment:
@@ -74,7 +73,7 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
-          # token:
+          token: admin
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
