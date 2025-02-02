@@ -1220,13 +1220,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6ea1a2d0a644769cc99faa24c3ad26b379b786fe7c36fd3c546254801650e6dd"
 
 [[package]]
-name = "safeyield"
-version = "0.1.0"
-dependencies = [
- "leptos",
-]
-
-[[package]]
 name = "same-file"
 version = "1.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1545,6 +1538,13 @@ dependencies = [
  "serde_spanned",
  "toml_datetime",
  "winnow",
+]
+
+[[package]]
+name = "trustmebro"
+version = "0.1.0"
+dependencies = [
+ "leptos",
 ]
 
 [[package]]

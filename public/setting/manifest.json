@@ -1,5 +1,5 @@
 {
-    "name": "SafeYield",
+    "name": "TrustMeBro",
     "icons": [
       {
         "src": "icons/eth_512.png",
@@ -12,6 +12,6 @@
         "sizes": "192x192"
       }
     ],
-    "start_url": "/safeyield",
+    "start_url": "/trustmebro",
     "display": "standalone"
 }
