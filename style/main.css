@@ -82,87 +82,6 @@ a:hover {
     color: lightblue;
 }
 
-.horizontal-line {
-    border-top: 1px solid;
-    filter: opacity(33%);
-    margin-top: 16px;
-    margin-bottom: 8px;
-}
-
-.dao-logo {
-    width: 12%;
-    display: block;
-    filter: opacity(33%);
-    border: 1px solid gray;
-    border-radius: 10%;
-}
-
-#panel {
-    margin: 64px;
-    display: flex;
-    justify-content: center;
-}
-
-#left-panel {
-    width: 16vw;
-    margin-right: 32px;
-    float: left;
-}
-
-#right-panel {
-    float: left;
-}
-
-#family-picture {
-    width: 100%;
-    display: block;
-    padding-top: 5%;
-    border-radius: 50%;
-}
-
-#operation-picture {
-    width: 2%;
-    display: inline;
-    margin-right: 1%;
-    border-radius: 50%;
-}
-
-#name {
-    margin-top: 15px;
-    color: #848d97;
-}
-
-#balance {
-    margin-top: 15px;
-}
-
-#rcv-account {
-}
-
-#tx-records {
-    overflow: visible;
-    margin-top: 15px;
-}
-
-.tx-record {
-    display: flex;
-}
-
-.operation {
-    display: flex;
-    margin-bottom: 12px;
-}
-
-.operation-info {
-    font-size: 0.9rem;
-    margin-bottom: 16px;
-    color: #848d97;
-}
-
-.fund-operation {
-    margin-top: auto;
-}
-
 input[type=text], input[type=password] {
     color: var(--color-text);
 }
@@ -176,17 +95,6 @@ input:focus::-webkit-input-placeholder
     color: transparent;
 }
 
-.single-fund-operation {
-    display: flex;
-    justify-content: center; /* Align horizontal */
-}
-
-.input-stack {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Align horizontal */
-}
-
 .text-input {
     width: 150px;
     text-align: right;
@@ -197,112 +105,6 @@ input:focus::-webkit-input-placeholder
 
     line-height: 20px;
     padding: 5px 10px;
-}
-
-svg {
-    min-width: 20px;
-}
-
-.operation svg {
-    margin-left: 1%;
-    margin-right: 2%;
-    margin-top: 4px;
-}
-
-.category svg {
-    margin-top: 4px;
-}
-
-.tx-record svg {
-    margin-top: 0.25%;
-    margin-right: 2%;
-}
-
-.block-category {
-    margin-bottom: 30px;
-}
-
-.category {
-    display: flex;
-    margin-bottom: 12px;
-}
-
-.category-text {
-}
-
-.big-block {
-    display: flex;
-}
-
-.block {
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
-    margin-right: 3%;
-    border-radius: 8px;
-    border: 1px solid gray;
-}
-
-#welcome {
-    margin-bottom: 2px;
-}
-
-#password {
-    text-align: center;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    bottom: 15%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-}
-
-#password-input {
-    margin-left: 16px;
-    margin-top: 8px;
-    display: flex;
-}
-
-#password-send {
-    width: 50px;
-}
-
-.original-text {
-    position: relative;
-    display: inline-block;
-}
-.original-text::before {
-    content: attr(data-overlay-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: red;
-    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-#login-picture {
-    width: 256px;
-    display: block;
-    margin-bottom: 12px;
-    border: 1px solid gray;
-    border-radius: 50%;
-}
-
-#login-err {
-    position: relative;
-    color: red;
-    margin-top: 10px;
 }
 
 .button {
@@ -347,75 +149,10 @@ button:focus {
 
 .rss.opacity { filter: opacity(5%); }
 
-#key {
-    word-wrap: break-word;
-    margin-top: 16px;
-    color: #848d97;
-}
-
-#key-description {
-    margin-bottom: 16px;
-}
-
-.contact {
-    position: fixed;
-    bottom: 4px;
-    left: 50%;
-    transform: translate(-50%, -10%);
-    text-align: center;
-    color: #848d97;
-    z-index: -1;
-}
-
-.contact_item {
-    margin-right: 16px;
-}
-
-.lower-0 {
-    margin-bottom: -6px;
-    margin-right: -6px;
-}
-
-.lower-1 {
-    margin-bottom: -4px;
-    margin-right: -2px;
-}
-
-.lower-2 {
-    width: 20px;
-    margin-bottom: -45px;
-    margin-right: -4px;
-    fill: white;
-}
-
-.lower-3 {
-    margin-bottom: -4px;
-    margin-right: -4px;
-}
-
 input {
     background-color: var(--color-input);
 }
 
 /* Styles for viewports wider than 600px */
 @media (max-width: 1280px) {
-    #panel {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    #left-panel {
-        margin-left: 33%;
-    }
-
-    #right-panel {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 64px;
-    }
-
-    .contact {
-        left: 50%;
-    }
 }
