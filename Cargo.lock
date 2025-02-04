@@ -1545,6 +1545,7 @@ name = "trustmebro"
 version = "0.1.0"
 dependencies = [
  "leptos",
+ "web-sys",
 ]
 
 [[package]]
